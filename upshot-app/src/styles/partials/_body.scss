@@ -95,6 +95,6 @@
     font-weight: 600;
     line-height: 1.25em;
     &:hover {
-        background: lighten($red, 10%);
+        background: darken($red, 10%);
     }
   }
