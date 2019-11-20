@@ -11,6 +11,16 @@ ul {
     padding: 0;
   }
 }
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
 }
@@ -19,3 +29,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+

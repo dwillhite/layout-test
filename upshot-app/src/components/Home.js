@@ -4,7 +4,11 @@ import Body from './Body.js';
 import './../App.scss';
 
 class Home extends Component {
+
+  
+    
     render() {
+        console.log("HM");
         return(
           <div className="App">
             <Header></Header>
