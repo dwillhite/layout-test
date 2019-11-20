@@ -1,0 +1,106 @@
+.App-header {
+  background-color: $pink;
+  height: 600px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-image: url('./../../images/hero.jpg');
+  background-size: cover;
+  overflow: hidden;
+    
+  }
+.header-content {
+  position: relative;
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+  // align-items: flex-start;
+  width: 90%;
+  max-width: 1800px;
+  img {
+    width: 137px;
+    padding: 1em;
+    float: left;
+  }
+
+}
+
+.main-nav {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: flex-start;
+  // align-items: flex-start;
+  display: none;
+  background: $darkgrey;
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: 500;
+  overflow: hidden;
+  li {
+    
+    a {
+      font-size: 2em;
+      color: $white;
+      text-decoration: none;
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover {
+        color: $red;
+      }
+      &:focus {
+        color: $red;
+      }
+    }
+    
+  }
+  @media only screen and (min-width: 1200px) {
+    // flex-direction: row;
+    // justify-content: space-between;
+    display: block;
+    position: relative;
+    float: right;
+    background: transparent;
+    width: auto;
+    li {
+      margin-right: 2em;
+      display: inline-block;
+      a {
+        font-size: 1.25em;
+      }
+    }
+  }
+}
+
+.title {
+  position: absolute;
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-weight: 800;
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 3em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hamburger {
+  z-index: 1000;
+  // display: none;
+  float: right;
+  padding: 1em;
+  .bars {
+    width: 30px;
+    height: 3px;
+    background: $white;
+    margin-bottom: 3px;
+  }
+  @media only screen and (min-width: 1200px) {
+    display: none;
+  }
+}

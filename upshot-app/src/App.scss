@@ -1,0 +1,16 @@
+@import './styles/modules/colors';
+@import './styles/partials/header';
+@import './styles/partials/body';
+
+//@import '~nprogress/nprogress';
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.hide {
+  display: none;
+}
